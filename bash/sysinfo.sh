@@ -15,3 +15,4 @@ ip a s ens33 | grep -w inet6 | awk '{print $2}'
 #Command to check the total space & available space on the system
 df
 # The end
+
