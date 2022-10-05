@@ -5,6 +5,7 @@
 echo "Hostname"
 echo "pc200497165"
 #Command for checking the system informartion
+echo "System Information"
 hostnamectl
 #Command for checking the IPv4 address  
 echo "IPv4 address"
