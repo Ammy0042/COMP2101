@@ -8,11 +8,9 @@ echo "pc200497165"
 hostnamectl
 #Command for checking the IPv4 address  
 echo "IPv4 address"
-#Command for checking the IPv6 address
-echo "IPv6 address"
 ip a s ens33 | grep -w inet | awk '{print $2}'
-ip a s ens33 | grep -w inet6 | awk '{print $2}'
 #Command to check the total space & available space on the system
-df
+df -h
+exit
 # The end
 
